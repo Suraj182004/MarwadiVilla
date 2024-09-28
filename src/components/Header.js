@@ -55,7 +55,7 @@ const Header = ({ user, onLogout }) => {
                 <nav className="hidden md:flex md:items-center md:gap-6">
                     <Link className="px-4 py-3 bg-violet-300 text-white rounded-lg" to="/">Home</Link>
                     <Link className="px-4 py-3 hover:bg-violet-300 hover:text-white rounded-lg" to="/compare">Compare</Link>
-                    <Link className="px-4 py-3 hover:bg-violet-300 hover:text-white rounded-lg" to="/listings">Listings</Link>
+                    <Link className="px-4 py-3 hover:bg-violet-300 hover:text-white rounded-lg" to="/listing">Listings</Link>
                     <Link className="px-4 py-3 hover:bg-violet-300 hover:text-white rounded-lg" to="">Appointment</Link>
                     <Link className="px-4 py-3 hover:bg-violet-300 hover:text-white rounded-lg" to="">Resources</Link>
                 </nav>

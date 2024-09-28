@@ -50,6 +50,10 @@ import Agent9 from "./assets/img/agents/agent9.png";
 import Agent10 from "./assets/img/agents/agent10.png";
 import Agent11 from "./assets/img/agents/agent11.png";
 import Agent12 from "./assets/img/agents/agent12.png";
+// data.js
+export const addHouse = (newHouse) => {
+  housesData.push(newHouse);
+}
 
 export const housesData = [
   {

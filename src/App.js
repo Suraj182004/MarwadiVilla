@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Compare from "./pages/Compare";
 import PropertyPage from "./pages/PropertyPage";
 import Login from "./components/Login";
+import ListingPage from "./components/Listing";
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/property/:id" element={<PropertyPage/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/map-search" element={<MapSearch />} />
+        <Route path="/listing" element={<ListingPage />} />
 
       </Routes>
       <Footer />
