@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { addHouse } from '../data'; // Adjust the path as necessary
 
-const ListingPage = () => {
+const Listing = () => {
   const [formData, setFormData] = useState({
     type: '',
     name: '',
@@ -235,5 +235,5 @@ const ListingPage = () => {
   );
 };
 
-export default ListingPage;
+export default Listing;
 

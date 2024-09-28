@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import Compare from "./pages/Compare";
 import PropertyPage from "./pages/PropertyPage";
 import Login from "./components/Login";
-import ListingPage from "./components/Listing";
+import Listing from "./components/Listing";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route path="/property/:id" element={<PropertyPage/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/map-search" element={<MapSearch />} />
-        <Route path="/listing" element={<ListingPage />} />
+        <Route path="/listing" element={<Listing />} />
 
       </Routes>
       <Footer />
